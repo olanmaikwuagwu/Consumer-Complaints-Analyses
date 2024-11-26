@@ -41,6 +41,12 @@ Some questions answered include:
 5. What is the volume of complaints by product type?
 6. What are the most reocurring issues and subissues?
 
+## Recommendations
++ Spotlight and study the city of California to understand the causes of spiked consumer complaints.
++ Compare the policies adopted in years 2022 and 2017 to identify the reasons for the difference in complaint volumes.
++ Optimize the three lowest complaint media so that more customers can access them.
++ Improve the top three products that recorded the highest complaint volumes, namely; checking or savings account, credit card or prepaid card, credit reporting/credit repair services.
++ Enhance the systems for managing accounts to reduce the number of issues emanating from this source.
 
 ## Code
 ```Sql
@@ -207,4 +213,4 @@ COUNT(`Company response to consumer`) AS responses
 FROM consumer_complaints.consumers
 GROUP BY 1;
 
-```sql
+
