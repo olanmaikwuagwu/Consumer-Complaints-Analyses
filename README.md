@@ -43,7 +43,7 @@ Some questions answered include:
 
 
 ## Code
---Sql
+```Sql
 
 -------------------------------------------Duplicate table---------------------------------------------------------------------------------
 
@@ -207,4 +207,4 @@ COUNT(`Company response to consumer`) AS responses
 FROM consumer_complaints.consumers
 GROUP BY 1;
 
---sql
+```sql
